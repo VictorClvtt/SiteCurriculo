@@ -1,0 +1,100 @@
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: initial;
+}
+
+header{
+    text-align: center;
+    background: aquamarine;
+    margin: 10px auto;
+    border-radius: 0 15px;
+    border-color: rgb(61, 160, 163);
+    border-style:solid;
+}
+
+body{
+    margin: 0 20%;
+}
+
+h2{
+    padding: 10px;
+    background: aquamarine;
+    border-radius: 15px 0;
+    border-color: rgb(61, 160, 163);
+    border-style:solid;
+    margin: 0 60% 0 0;
+}
+
+.desc{
+    font-size: 20px;
+    margin: 10px 0 10px 25%;
+    padding: 10px;
+    background: aquamarine;
+    border-radius: 15px 0;
+    border-color: rgb(61, 160, 163);
+    border-style:solid;
+}
+
+ul li{
+    padding: 5px;
+    background: transparent;
+    border-color: rgb(61, 160, 163);
+    border-style:solid;
+}
+
+ul{
+    background: linear-gradient(0deg, rgb(62, 137, 177) 0%, aquamarine 100%);
+    padding: 0px ;
+    margin: 10px 0 10px 5%;
+}
+
+.contatos{
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.rede1{
+    display: inline-block;
+    vertical-align: middle;
+    background: rgb(193,34,195);
+    background: linear-gradient(0deg, rgba(193,34,195,1) 0%, rgba(253,118,45,1) 100%);
+    padding: 10px;
+    border-color: rgb(130, 53, 145);
+    border-style: solid;
+}
+
+.rede2{
+    display: inline-block;
+    vertical-align: middle;
+    background: rgb(94, 235, 89);
+    padding: 10px;
+    border-color: rgb(53, 145, 58);
+    border-style: solid;
+}
+
+.rede3{
+    display: inline-block;
+    vertical-align: middle;
+    background: rgb(82, 73, 255);
+    padding: 10px;
+    border-color: rgb(35, 18, 142);
+    border-style: solid;
+}
+
+a:link{
+    color: rgb(232, 232, 232)
+}
+
+a:hover{
+    color: rgb(146, 146, 146);
+    background: rgb(45, 44, 117);
+}
+
+.rede1:active, .rede2:active, .rede3:active{
+    color: rgb(100, 14, 171);
+}
+
+.rede1:visited, .rede2:visited, .rede3:visited{
+    color: rgb(171, 14, 61);
+}
