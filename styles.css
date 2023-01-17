@@ -94,6 +94,50 @@ ul{
     box-shadow: 5px 7px rgb(24, 24, 24);
 }
 
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    background-color: rgb(30, 58, 137);
+    border-radius: 15px 0;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    box-shadow: 5px 7px rgb(24, 24, 24);
+    transition: 500ms;
+}
+
+.icon:hover{
+    background-color: rgb(39, 101, 134);
+    margin: 0 10px 0 -130px;
+    padding: 0 0 0 120px
+}
+
+.asterisco{
+    width: 44px;
+    padding: 4px;
+}
+
+.sm{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 0 0 0;
+    color:rgba(255, 0, 0, 0);
+    transition: 1s;
+}
+
+div:hover .sm{
+    color: black;
+    margin: 0 15px 0 0 ;
+}
+
+.saiba{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin: 0 0 0 -500px;
+}
+
 .rede1:link, .rede2:link, .rede3:link{
     color: rgb(240, 240, 240)
 }
